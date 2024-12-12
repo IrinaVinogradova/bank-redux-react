@@ -7,7 +7,7 @@ export const deposit = sum  => ({
     payload: sum
 })
 
-export const withDraw = sum  => ({
+export const withdraw = sum  => ({
     type: 'WITHDRAW',
     payload: sum
 })
